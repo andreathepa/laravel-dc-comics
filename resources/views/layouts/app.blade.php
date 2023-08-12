@@ -14,10 +14,17 @@
 </head>
 
 <body>
-
+    <header>
+        SPAZIO HEADER
+    </header>
+    
     <main>
         @yield('content')
     </main>
+
+    <footer>
+        SPAZIO FOOTER
+    </footer>
 
     
 </body>
