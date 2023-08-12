@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+@extends('layout.app')
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Laravel-dc-comics</title>
-
-    
-    @vite('resources/js/app.js')
-
-</head>
-
-<body>
+@section('content')
 
     <div class="container mt-5">
         <div class="row">
@@ -27,6 +15,4 @@
         </div>
     </div>
 
-</body>
-
-</html>
+@endsection

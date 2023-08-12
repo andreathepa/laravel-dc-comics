@@ -1,7 +1,12 @@
-<div class="container">
+@extends('layouts.app')
+
+@section('content')
+
+
+<div class="container my-3">
     <div class="row">
         <div class="col-12">
-            <table>
+            <table class="table">
                 <thead>
                     <tr>
                         <th>ID</th>
@@ -15,6 +20,10 @@
                     @foreach ($comics as $comic)
                         <tr>
                             <td>{{$comic->id}}</td>
+                            <td>{{$comic->title}}</td>
+                            <td>{{$comic->series}}</td>
+                            <td>{{$comic->price}}</td>
+                            <td><a href="#"></a></td>
                         </tr>
                         
                     @endforeach
@@ -23,3 +32,5 @@
         </div>
     </div>
 </div>
+
+@endsection
