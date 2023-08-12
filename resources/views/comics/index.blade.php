@@ -6,6 +6,9 @@
 <div class="container my-3">
     <div class="row">
         <div class="col-12">
+            <a href="{{route('comics.create')}}" class="btn btn-secondary">Aggiungi fumetto</a>
+        </div>
+        <div class="col-12">
             <table class="table">
                 <thead>
                     <tr>

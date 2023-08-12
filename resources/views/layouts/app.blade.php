@@ -15,15 +15,15 @@
 
 <body>
     <header>
-        SPAZIO HEADER
+        <div class="bg-primary p-3"></div>
     </header>
-    
-    <main>
+
+    <main class="mt-5 mb-5">
         @yield('content')
     </main>
 
     <footer>
-        SPAZIO FOOTER
+        <div class="bg-primary p-3"></div>
     </footer>
 
     
